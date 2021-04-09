@@ -50,16 +50,3 @@ nav li a:hover{
     background-size: cover;
     background-blend-mode: darken;
 }
-.btn{
-    padding: 8px 20px;
-    margin: 7px 2px;
-    border: 2px solid white;
-    border-radius: 8px;
-    background: none;
-    color: orange;
-    cursor: pointer;
-}
-.btn-sm{
-    padding: 6px 10px;
-    vertical-align: middle;
-}
