@@ -9,9 +9,7 @@
     align-items: center;
 }
 .logo img{
-    width: 70%;
-    border: 2px solid white;
-    border-radius: 30px;
+    width: 100%;
 }
 .navbar{
     display: flex;
