@@ -22,12 +22,6 @@
     cursor: pointer;
 }
 .navlist{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navlist{
     width: 100%;
     display: flex;
     font-size: larger;
