@@ -9,7 +9,9 @@
     align-items: center;
 }
 .logo img{
-    width: 100%;
+    float: left;
+    width: 80%;
+    border: 1px solid white;
 }
 .navbar{
     display: flex;
@@ -25,26 +27,60 @@
     justify-content: center;
     align-items: center;
 }
+.navlist{
+    width: 100%;
+    display: flex;
+    font-size: larger;
+}
 .navlist li{
     list-style: none;
-    padding: 20px 45px;
+    padding: 30px 60px;
 }
 nav li a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 nav li a:hover{
     text-decoration: none;
-    color:grey;
-}
-#Search{
-    padding: 5px;
-    font-size: 17px;
-    border: 2px solid grey;
-    border-radius: 9px;
+    color:rgb(102, 108, 116);
 }
 .background{
-    background: rgba(0, 0, 0, 0.9) url('/Image/image3.jpg');
     background-size: cover;
     background-blend-mode: darken;
+}
+.content{
+    height: 100%;
+    background-color: yellow;
+}
+.content2 p{
+    margin-left: 10%;
+    padding: 2px 2px;
+}
+.content h1{
+    width: 50%;
+    padding-top: 15%;
+    padding-left: 5%;
+    font-size: 220%;
+    @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+}
+.first-content img{
+    float: right;
+    width: 50%;
+    margin-top: 5%;
+}
+.create-btn{
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: rgb(255, 136, 0);
+    padding: 20px 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.create-btn button{
+    align-items: center;
 }
