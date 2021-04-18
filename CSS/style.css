@@ -27,6 +27,7 @@
     font-size: larger;
 }
 .navlist li{
+    font-family: sans-serif ;
     list-style: none;
     padding: 30px 60px;
 }
